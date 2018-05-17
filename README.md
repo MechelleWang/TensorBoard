@@ -13,4 +13,4 @@ TensorBoard 是用于可视化 TensorFlow 模型的训练过程的工具（the f
 3、run
 在没有运行的时候这些操作是不会执行任何东西的，仅仅是定义了一下而已。在运行（开始训练）的时候，我们需要通过 tf.summary.FileWriter() 指定一个目录来告诉程序把产生的文件放到哪。然后在运行的时候使用 add_summary() 来将某一步的 summary 数据记录到文件中。
 
-https://i.imgur.com/TK5BIH4.png
+![](https://i.imgur.com/TK5BIH4.png)
